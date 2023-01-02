@@ -16,6 +16,7 @@ function Button({
     large = false,
     children,
     leftIcon,
+    className,
     onClick,
     ...passProps
 }) {
@@ -49,6 +50,7 @@ function Button({
         disable,
         small,
         large,
+        [className]: className,
     });
 
     return (
